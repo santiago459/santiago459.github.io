@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-color: #070709;
+}
+
+.main-section {
+    width: 40%;
+    height: 50%;
+}
+
+.main-section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 30px;
+    height: 70%;
+}
+
+.main-section:nth-child(2) {
+    width: 55%;
+    height: 70%;
+}
+
+.section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inf-me {
+    width: 100%;
+}
+
+.inf-title {
+    font-size: 40px;
+    font-family: Source Code Pro;
+    background: linear-gradient(135deg, #2bc8a9, #17aa54);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 100%;
+    font-weight: 600;
+    animation: gradientAnimation 4s linear infinite alternate;
+}
+
+.inf-p {
+    font-size: 20px;
+    font-family: Josefin Sans;
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.section-card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.icon {
+    font-size: 50px;
+    color: white
+}
+
+.fa-js {
+    color: #F7DF1E;
+}
+
+.fa-css3-alt {
+    color: #1572B6;
+}
+
+.fa-html5 {
+    color: #E34F26;
+}
+
+.fa-react {
+    color: #61DAFB;
+}
+
+.fa-node-js {
+    color: #8CC84B;
+}
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 35px;
+}
+
+.contact h3 {
+    color: rgb(148, 148, 148);
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.fa-envelope {
+    margin-right: 10px;
+    font-size: 30px;
+    color: rgb(242, 242, 242) !important;
+}

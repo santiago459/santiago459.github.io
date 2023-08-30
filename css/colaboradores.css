@@ -1,0 +1,30 @@
+#col-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.Tanks {
+  width: 890px;
+  height: 300px;
+  padding: 20px;
+  scale: 1.8;
+  margin-top: 63px;
+  border: 10px groove rgb(59, 206, 255);
+}
+.Tanks h1 {
+  font-size: 40px;
+  font-family: Acme;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #b0fdb0;
+  text-shadow: 1px 1px 0px black;
+}
+.Tanks p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Quicksand;
+    line-height: 1.5;
+}
